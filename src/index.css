@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.div{
+    top: -100%;
+    transition: 3s;
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.223) 90%,rgba(255, 255, 255, 0.36));
+}
+.mamo:hover .div{
+    transition: all 2s;
+    top: 0;
+
+
+    
+}
