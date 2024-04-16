@@ -1,8 +1,8 @@
-import React, { memo, useEffect } from 'react';
+import  { memo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAppDispatch, useAppSelector } from '../store/app';
 import axios, { AxiosResponse } from 'axios';
-import { addUser, newUser, userSelector } from '../store/user';
+import {  newUser, userSelector } from '../store/user';
 import RP from '../components/rp';
 
 const Fav = memo(() => {
@@ -33,7 +33,7 @@ const Fav = memo(() => {
             </Link>
             <div className='grid grid-cols-1 px-3 gap-3 w-full h-full sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                 {
-                    data && data.length > 0 ? data.map((p, i) => <div key={p.id} className='bg-pink-500 text-white w-full h-[50vh]'>
+                    data && data.length > 0 ? data.map((p) => <div key={p.id} className='bg-pink-500 text-white w-full h-[50vh]'>
                         <div className=' mamo w-full overflow-hidden relative h-2/3 '>
                             <img src={p.image} className='bg-yellow-300  w-full h-full' alt="" />
                             <div className='div absolute w-full h-full '>

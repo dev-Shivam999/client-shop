@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
-import React, { memo, useState } from 'react';
+import  { memo, useState } from 'react';
 import { useAppDispatch } from '../store/app';
-import { fil, fil2 } from '../store/user';
+import {  fil2 } from '../store/user';
 
 const RP = memo(({ p }: { p: Products, }) => {
 

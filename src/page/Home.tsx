@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-import React, { memo, useEffect, useState } from 'react';
+import  { memo, useEffect, useState } from 'react';
 import Left from '../components/Left';
 import Right from '../components/Right';
 import { Link } from 'react-router-dom';

@@ -1,5 +1,5 @@
 import axios, { AxiosResponse } from 'axios';
-import React, { memo, useState } from 'react';
+import  { memo, useState } from 'react';
 
 const Lp = memo(({ p }: { p: Products }) => {
     const [check, Setcheck] = useState<boolean>(false)
